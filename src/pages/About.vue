@@ -1,6 +1,13 @@
 <template>
-  <div>
-    <h1 class="mb-3">About</h1>
-    <p>This project demonstrates Vue.js fundamentals.</p>
-  </div>
+  <section class="page">
+    <h1>About WeatherVue</h1>
+    <p>This project is built to learn and explore Vue.js 🚀</p>
+  </section>
 </template>
+
+<style scoped>
+.page {
+  text-align: center;
+  padding: 80px;
+}
+</style>

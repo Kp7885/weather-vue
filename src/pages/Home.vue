@@ -1,10 +1,26 @@
 <template>
-  <div class="text-center">
-    <h1>Welcome to Weather Vue ⛅</h1>
-    <p class="text-muted">This is your mini Vue project with routing & UI.</p>
-
-    <router-link to="/dashboard" class="btn btn-primary btn-lg mt-3">
-      Go to Dashboard →
-    </router-link>
-  </div>
+  <section class="page">
+    <h1>Welcome to WeatherVue</h1>
+    <p>Your simple weather storytelling experience built with Vue!</p>
+    <router-link class="btn" to="/dashboard">Go to Dashboard</router-link>
+  </section>
 </template>
+
+<style scoped>
+.page {
+  text-align: center;
+  padding: 80px;
+}
+.btn {
+  background: #38bdf8;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+.btn:hover {
+  background: #0ea5e9;
+}
+</style>
